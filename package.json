@@ -1,8 +1,12 @@
 {
   "name": "web-snippets",
   "displayName": "Web Snippets",
+  "author": {
+    "name": "Ardno",
+    "email": "ardnozregister@gmail.com"
+  },
   "description": "Essential snippets for web developement.",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.80.0"
   },
