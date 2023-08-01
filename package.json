@@ -1,0 +1,27 @@
+{
+  "name": "web-snippets",
+  "displayName": "Web Snippets",
+  "description": "Essential snippets for web developement.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "vue",
+        "aliases": ["Vue", "vuejs", "vue"],
+        "extensions": [".vue"]
+      }
+    ],
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
