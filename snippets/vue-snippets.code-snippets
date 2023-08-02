@@ -1,0 +1,19 @@
+{
+  "vue_file": {
+    "prefix": "vuefile",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "",
+      "</script>",
+      "",
+      "<template>",
+      "\t$0",
+      "</template>",
+      "",
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Default vue file template"
+  }
+}

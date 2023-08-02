@@ -1,0 +1,20 @@
+{
+  "vue_props": {
+    "prefix": "vueprops",
+    "body": [
+      "const props = defineProps({",
+      "\t${1:msg}: ${2:String}",
+      "});"
+    ],
+    "description": "Default vue props template"
+  },
+  "vue_emits": {
+    "prefix": "vueemits",
+    "body": [
+      "const emit = defineEmits(['$1']);",
+      "",
+      "emit('$1', $0);"
+    ],
+    "description": "Default vue emits template"
+  }
+}

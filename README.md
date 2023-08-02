@@ -31,7 +31,7 @@ const props = defineProps({
 ### vueemits
 ```typescript
 const emit = defineEmits(['response']);
-emit('response', 'value');
+emit('response', 'text');
 ```
 
 ## Requirements
@@ -71,6 +71,13 @@ These are the plans for upcoming versions.
 
 * "vue" snippet renamed to "vuefile"
 * Added "vueprops" and "vueemits" snippets
+
+### 0.1.3
+
+* Created VSIX file
+* Updated languages in package.json
+* Snippets for TypeScript in Vue now works
+* Snippets has options of completing via tab positions and default values 
 
 ## For more information
 
