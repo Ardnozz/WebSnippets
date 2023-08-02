@@ -2,9 +2,37 @@
 
 This is the README for WebSnippet Visual Studio Code extension. The extension should be used only for web developement projects, that have Vue.js included.
 
-## Features
+## Snippets
 
-It provides a shortcut "vue" that prints a vue file template connected with typescript and scoped style.
+Write them as normal part of code and IntelliSence (suggestions) will help you.
+
+### vuefile
+```html
+<script setup lang="ts">
+
+</script>
+
+<template>
+
+</template>
+
+<style scoped>
+
+</style>
+```
+
+### vueprops
+```typescript
+const props = defineProps({
+  msg: String
+});
+```
+
+### vueemits
+```typescript
+const emit = defineEmits(['response']);
+emit('response', 'value');
+```
 
 ## Requirements
 
@@ -32,12 +60,17 @@ These are the plans for upcoming versions.
 
 ### 0.1.0
 
-Initial release of WebSnippets
+* Initial release of WebSnippets
 
 ### 0.1.1
 
-Updated README.md
-Created first release via VSIX file
+* Updated README.md
+* Created first release via VSIX file
+
+### 0.1.2
+
+* "vue" snippet renamed to "vuefile"
+* Added "vueprops" and "vueemits" snippets
 
 ## For more information
 

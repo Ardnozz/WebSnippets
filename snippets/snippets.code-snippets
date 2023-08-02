@@ -1,6 +1,6 @@
 {
-  "vue": {
-    "prefix": "vue",
+  "vue_file": {
+    "prefix": "vuefile",
     "body": [
       "<script setup lang=\"ts\">",
       "",
@@ -14,6 +14,23 @@
       "",
       "</style>"
     ],
-    "description": "Default vue template"
+    "description": "Default vue file template"
+  },
+  "vue_props": {
+    "prefix": "vueprops",
+    "body": [
+      "const props = defineProps({",
+      "  msg: String",
+      "});"
+    ],
+    "description": "Default vue props template"
+  },
+  "vue_emits": {
+    "prefix": "vueemits",
+    "body": [
+      "const emit = defineEmits(['response']);",
+      "emit('response', 'value');"
+    ],
+    "description": "Default vue emits template"
   }
 }
